@@ -1,1 +1,28 @@
-// article-block.csss
+.article-block {
+  color: $white;
+  padding: .75em 1.2em;
+  margin: 0;
+  width: 23em;
+  height: 20em;
+  background: linear-gradient(#C3006D, transparent);
+  img {
+    z-index: -10;
+    max-width: none;
+  }
+  h1 {
+    font-size: 1.8em;
+    line-height: 1.05em;
+    padding: 0;
+    margin: 0;
+  }
+  p {
+    font-size: .9em;
+    line-height: 1em;
+    display: inline-block;
+    margin: 0;
+    padding: 0
+    }
+  .post-date {
+    padding-left: 12em;
+  }
+}
