@@ -8,9 +8,5 @@
   .sample-image {
     zoom: 0.5;
     display: block;
-    border: 1px solid $gray-lighter;
-  }
-  &> *:last-child {
-    border: 1px solid $gray-lighter;
   }
 }
