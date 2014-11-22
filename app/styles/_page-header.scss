@@ -1,0 +1,22 @@
+.page-header {
+  @include clearfix;
+  width: 100%;
+  position: relative;
+  margin-bottom: 0;
+  .upper {
+    width: 30em;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding-left: 8em;
+  }
+  .header-utilities {
+    float: left;
+  }
+  .logo-mcad {
+    float: right;
+  }
+  .nav {
+    float: right;
+  }
+}
